@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/general_wifi_code_bg" />
+
+    <TextView
+        android:id="@+id/txtThankYou"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="200dp"
+        android:text="@string/thank_you"
+        android:textColor="@color/orange_main"
+        android:textSize="180sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtThankYou"
+        android:layout_centerHorizontal="true"
+        android:text="@string/will_contacting"
+        android:textColor="@color/gray_txt"
+        android:textSize="60sp" />
+
+    <TextView
+        android:id="@+id/txtHome"
+        style="@style/txt_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/dm_30dp"
+        android:background="@drawable/btn_orange_right"
+        android:text="@string/done" />
+</RelativeLayout>

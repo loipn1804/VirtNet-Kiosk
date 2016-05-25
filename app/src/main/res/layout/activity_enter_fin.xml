@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/root"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/screen_height">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/general_wifi_code_bg" />
+
+                <TextView
+                    android:id="@+id/txtTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dm_title_margin_left"
+                    android:layout_marginTop="@dimen/dm_title_margin_top"
+                    android:text="@string/get_wifi_access_code"
+                    android:textColor="@color/black_dark"
+                    android:textSize="@dimen/txt_title" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="200dp"
+                    android:text="@string/fin_label"
+                    android:textColor="@color/gray_lable"
+                    android:textSize="@dimen/txt_50sp" />
+
+                <EditText
+                    android:id="@+id/edtPhoneNumber"
+                    style="@style/edt_enter_code"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="280dp"
+                    android:background="@drawable/edt_wifi_code_bg"
+                    android:hint="@string/fin"
+                    android:inputType="number"
+                    android:minWidth="400dp"
+                    android:paddingLeft="@dimen/dm_80dp"
+                    android:paddingRight="@dimen/dm_80dp" />
+
+                <ImageView
+                    android:id="@+id/imvHideKeyboard"
+                    android:layout_width="@dimen/dm_40dp"
+                    android:layout_height="@dimen/dm_40dp"
+                    android:layout_alignBottom="@+id/edtPhoneNumber"
+                    android:layout_alignRight="@+id/edtPhoneNumber"
+                    android:layout_alignTop="@+id/edtPhoneNumber"
+                    android:layout_marginRight="@dimen/dm_20dp"
+                    android:src="@drawable/hide_keyboard" />
+
+                <TextView
+                    android:id="@+id/txtDone"
+                    style="@style/txt_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_above="@+id/txtExit"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="@dimen/dm_20dp"
+                    android:background="@drawable/btn_orange_right"
+                    android:text="@string/done" />
+
+                <TextView
+                    android:id="@+id/txtExit"
+                    style="@style/txt_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="@dimen/dm_30dp"
+                    android:background="@drawable/btn_black_right"
+                    android:text="@string/exit" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

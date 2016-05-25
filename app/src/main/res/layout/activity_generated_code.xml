@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/general_wifi_code_bg" />
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dm_title_margin_left"
+        android:layout_marginTop="@dimen/dm_title_margin_top"
+        android:text="@string/generated_code"
+        android:textColor="@color/black_dark"
+        android:textSize="@dimen/txt_title" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp"
+        android:text="@string/wifi_code"
+        android:textColor="@color/gray_lable"
+        android:textSize="@dimen/txt_50sp" />
+
+    <TextView
+        android:id="@+id/txtShowWifiCode"
+        style="@style/txt_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:background="@drawable/btn_orange"
+        android:text="@string/show_wifi_access_code" />
+
+    <TextView
+        android:id="@+id/txtWifiCode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="300dp"
+        android:text=""
+        android:textColor="@color/black_txt"
+        android:textSize="@dimen/txt_80sp" />
+
+    <TextView
+        android:id="@+id/txtPrint"
+        style="@style/txt_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/dm_30dp"
+        android:background="@drawable/btn_orange_right"
+        android:text="@string/print" />
+
+    <TextView
+        android:id="@+id/txtSms"
+        style="@style/txt_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/dm_30dp"
+        android:background="@drawable/btn_orange_left"
+        android:text="@string/sms" />
+
+    <RelativeLayout
+        android:id="@+id/rltHome"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/dm_30dp"
+        android:background="@drawable/btn_orange">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerInParent="true"
+            android:src="@drawable/home" />
+    </RelativeLayout>
+</RelativeLayout>

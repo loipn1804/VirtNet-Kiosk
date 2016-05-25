@@ -1,0 +1,52 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--<item name="android:statusBarColor">@color/transparent</item>-->
+        <!--<item name="android:windowTranslucentStatus">true</item>-->
+        <!--<item name="android:windowFullscreen">true</item>-->
+    </style>
+
+    <style name="txt_btn" parent="AppTheme">
+        <item name="android:paddingLeft">@dimen/dm_50dp</item>
+        <item name="android:paddingRight">@dimen/dm_50dp</item>
+        <item name="android:paddingTop">@dimen/dm_10dp</item>
+        <item name="android:paddingBottom">@dimen/dm_10dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/txt_40sp</item>
+    </style>
+
+    <style name="edt_enter_code" parent="AppTheme">
+        <item name="android:paddingLeft">@dimen/dm_50dp</item>
+        <item name="android:paddingRight">@dimen/dm_50dp</item>
+        <item name="android:paddingTop">@dimen/dm_10dp</item>
+        <item name="android:paddingBottom">@dimen/dm_10dp</item>
+        <item name="android:textColor">@color/gray_txt</item>
+        <item name="android:textSize">@dimen/txt_40sp</item>
+        <item name="android:textColorHint">@color/gray_txt_hint</item>
+        <item name="android:gravity">center</item>
+        <item name="android:singleLine">true</item>
+    </style>
+
+    <style name="edt_gray_srtoke" parent="AppTheme">
+        <item name="android:paddingTop">@dimen/dm_10dp</item>
+        <item name="android:paddingBottom">@dimen/dm_10dp</item>
+        <item name="android:paddingLeft">@dimen/dm_30dp</item>
+        <item name="android:paddingRight">@dimen/dm_30dp</item>
+        <item name="android:textColor">@color/gray_txt</item>
+        <item name="android:textSize">@dimen/txt_32sp</item>
+        <item name="android:textColorHint">@color/gray_txt_hint</item>
+        <item name="android:background">@drawable/edt_gray_stroke_bg</item>
+    </style>
+
+    <style name="edt_gray_stroke_register_4" parent="AppTheme">
+        <item name="android:paddingTop">@dimen/dm_10dp</item>
+        <item name="android:paddingBottom">@dimen/dm_10dp</item>
+        <item name="android:paddingLeft">@dimen/dm_30dp</item>
+        <item name="android:paddingRight">@dimen/dm_30dp</item>
+        <item name="android:textColor">@color/gray_txt</item>
+        <item name="android:textSize">@dimen/txt_32sp</item>
+        <item name="android:textColorHint">@color/gray_txt_hint</item>
+        <item name="android:background">@drawable/edt_gray_stroke_bg</item>
+    </style>
+</resources>

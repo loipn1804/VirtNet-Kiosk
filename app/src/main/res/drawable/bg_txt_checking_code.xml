@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:angle="0"
+        android:centerColor="@color/gray_bg_txt_checking_code"
+        android:endColor="@color/gray_bg_txt_checking_code_trans_2"
+        android:startColor="@color/gray_bg_txt_checking_code" />
+</shape>

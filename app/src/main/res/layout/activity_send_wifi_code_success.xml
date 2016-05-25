@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/general_wifi_code_bg" />
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/dm_title_margin_left"
+        android:layout_marginTop="@dimen/dm_title_margin_top"
+        android:text="@string/get_wifi_access_code"
+        android:textColor="@color/black_dark"
+        android:textSize="@dimen/txt_title" />
+
+    <TextView
+        android:id="@+id/txtSuccess"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:text="@string/success_print"
+        android:textColor="@color/orange_main"
+        android:textSize="@dimen/txt_90sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtSuccess"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dm_20dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtHaveProblem"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="@string/have_problem_print"
+            android:textColor="@color/black_dark"
+            android:textSize="@dimen/txt_50sp" />
+
+        <TextView
+            android:id="@+id/txtReportIssue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="@dimen/dm_10dp"
+            android:text="@string/report_issue"
+            android:textColor="@color/orange_main"
+            android:textSize="@dimen/txt_50sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtExit"
+        style="@style/txt_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/dm_30dp"
+        android:background="@drawable/btn_black_right"
+        android:text="@string/exit" />
+</RelativeLayout>

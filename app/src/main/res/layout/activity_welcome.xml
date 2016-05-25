@@ -1,0 +1,213 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/wifi_kiosk_welcome_bg" />
+
+    <View
+        android:id="@+id/viewFinishAppLeft"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="@color/transparent" />
+
+    <View
+        android:id="@+id/viewFinishAppRight"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:background="@color/transparent" />
+
+    <ImageView
+        android:id="@+id/imvLogo"
+        android:layout_width="256dp"
+        android:layout_height="97dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/logo" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="200dp"
+        android:layout_marginLeft="@dimen/dm_40dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imvChooseEn"
+                android:layout_width="@dimen/dm_30dp"
+                android:layout_height="@dimen/dm_30dp"
+                android:src="@drawable/multi_choose_left" />
+
+            <TextView
+                android:id="@+id/txtEn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dm_10dp"
+                android:text="@string/lang_english"
+                android:textColor="@color/white"
+                android:textSize="@dimen/txt_32sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dm_10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imvChooseCh"
+                android:layout_width="@dimen/dm_30dp"
+                android:layout_height="@dimen/dm_30dp"
+                android:src="@drawable/multi_choose_left" />
+
+            <TextView
+                android:id="@+id/txtCh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dm_10dp"
+                android:text="@string/lang_chinese"
+                android:textColor="@color/white"
+                android:textSize="@dimen/txt_32sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dm_10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imvChooseHi"
+                android:layout_width="@dimen/dm_30dp"
+                android:layout_height="@dimen/dm_30dp"
+                android:src="@drawable/multi_choose_left" />
+
+            <TextView
+                android:id="@+id/txtHi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dm_10dp"
+                android:text="@string/lang_hindi"
+                android:textColor="@color/white"
+                android:textSize="@dimen/txt_32sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dm_10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imvChooseBa"
+                android:layout_width="@dimen/dm_30dp"
+                android:layout_height="@dimen/dm_30dp"
+                android:src="@drawable/multi_choose_left" />
+
+            <TextView
+                android:id="@+id/txtBa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dm_10dp"
+                android:text="@string/lang_bahasa"
+                android:textColor="@color/white"
+                android:textSize="@dimen/txt_32sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dm_10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imvChooseTh"
+                android:layout_width="@dimen/dm_30dp"
+                android:layout_height="@dimen/dm_30dp"
+                android:src="@drawable/multi_choose_left" />
+
+            <TextView
+                android:id="@+id/txtTh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dm_10dp"
+                android:text="@string/lang_thai"
+                android:textColor="@color/white"
+                android:textSize="@dimen/txt_32sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dm_10dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imvChooseTa"
+                android:layout_width="@dimen/dm_30dp"
+                android:layout_height="@dimen/dm_30dp"
+                android:src="@drawable/multi_choose_left" />
+
+            <TextView
+                android:id="@+id/txtTa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/dm_10dp"
+                android:text="@string/lang_tamil"
+                android:textColor="@color/white"
+                android:textSize="@dimen/txt_32sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="@dimen/dm_10dp"
+        android:layout_marginRight="300dp"
+        android:layout_marginTop="460dp"
+        android:text="@string/welcome"
+        android:textColor="@color/white"
+        android:textSize="120sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtBelowWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txtWelcome"
+        android:layout_marginLeft="@dimen/dm_10dp"
+        android:layout_marginRight="200dp"
+        android:text="@string/below_welcome"
+        android:textColor="@color/white"
+        android:textSize="@dimen/txt_36sp" />
+
+    <ImageView
+        android:id="@+id/imvNext"
+        android:layout_width="140dp"
+        android:layout_height="100dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/dm_30dp"
+        android:layout_marginRight="@dimen/dm_30dp"
+        android:src="@drawable/next" />
+</RelativeLayout>

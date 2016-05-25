@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/superRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/root"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/screen_height">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/general_wifi_code_bg" />
+
+                <TextView
+                    android:id="@+id/txtTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dm_40dp"
+                    android:layout_marginTop="@dimen/dm_20dp"
+                    android:text="@string/private_setting"
+                    android:textColor="@color/black_dark"
+                    android:textSize="@dimen/txt_80sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_below="@+id/txtTitle"
+                    android:orientation="horizontal"
+                    android:weightSum="6">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:orientation="vertical"
+                        android:paddingLeft="@dimen/dm_40dp"
+                        android:paddingRight="@dimen/dm_20dp">
+
+                        <LinearLayout
+                            android:id="@+id/lnlDeviceId"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="@dimen/dm_10dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/device_id"
+                                android:textColor="@color/gray_lable"
+                                android:textSize="@dimen/txt_32sp" />
+
+                            <EditText
+                                android:id="@+id/edtDeviceId"
+                                style="@style/edt_gray_stroke_register_4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/dm_5dp"
+                                android:imeOptions="actionDone"
+                                android:singleLine="true"
+                                android:textColor="@color/gray_stroke" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/lnlName"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="@dimen/dm_10dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/name"
+                                android:textColor="@color/gray_lable"
+                                android:textSize="@dimen/txt_32sp" />
+
+                            <EditText
+                                android:id="@+id/edtName"
+                                style="@style/edt_gray_stroke_register_4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/dm_5dp"
+                                android:imeOptions="actionNext"
+                                android:nextFocusForward="@+id/edtLat"
+                                android:singleLine="true" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/lnlLat"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="@dimen/dm_10dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/lat"
+                                android:textColor="@color/gray_lable"
+                                android:textSize="@dimen/txt_32sp" />
+
+                            <EditText
+                                android:id="@+id/edtLat"
+                                style="@style/edt_gray_stroke_register_4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/dm_5dp"
+                                android:imeOptions="actionNext"
+                                android:nextFocusForward="@+id/edtLng"
+                                android:singleLine="true" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/lnlLng"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="@dimen/dm_10dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/lng"
+                                android:textColor="@color/gray_lable"
+                                android:textSize="@dimen/txt_32sp" />
+
+                            <EditText
+                                android:id="@+id/edtLng"
+                                style="@style/edt_gray_stroke_register_4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/dm_5dp"
+                                android:imeOptions="actionDone"
+                                android:singleLine="true" />
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:orientation="vertical"
+                        android:paddingLeft="@dimen/dm_20dp"
+                        android:paddingRight="@dimen/dm_40dp">
+
+                        <LinearLayout
+                            android:id="@+id/lnlDormitary"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginTop="@dimen/dm_10dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/dormitory"
+                                android:textColor="@color/gray_lable"
+                                android:textSize="@dimen/txt_32sp" />
+
+                            <RelativeLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/dm_5dp">
+
+                                <TextView
+                                    android:id="@+id/txtDormitary"
+                                    style="@style/edt_gray_stroke_register_4"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:paddingRight="@dimen/dm_60dp"
+                                    android:text="" />
+
+                                <ImageView
+                                    android:layout_width="@dimen/dm_30dp"
+                                    android:layout_height="@dimen/dm_30dp"
+                                    android:layout_alignParentRight="true"
+                                    android:layout_centerVertical="true"
+                                    android:layout_marginRight="@dimen/dm_30dp"
+                                    android:src="@drawable/arrow_down" />
+                            </RelativeLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/lnlDogWatcher"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/dm_10dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Always run app on top"
+                                android:textColor="@color/gray_lable"
+                                android:textSize="@dimen/txt_32sp" />
+
+                            <RadioGroup
+                                android:id="@+id/radioAlwaysRun"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/dm_5dp"
+                                android:gravity="center_vertical"
+                                android:orientation="horizontal">
+
+                                <RadioButton
+                                    android:id="@+id/radioTrue"
+                                    android:layout_width="@dimen/dm_50dp"
+                                    android:layout_height="@dimen/dm_50dp"
+                                    android:background="@drawable/check_box"
+                                    android:button="@android:color/transparent"
+                                    android:checked="true"
+                                    android:text="" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="@dimen/dm_10dp"
+                                    android:layout_marginLeft="@dimen/dm_10dp"
+                                    android:layout_marginTop="@dimen/dm_10dp"
+                                    android:text="Enable"
+                                    android:textColor="@color/gray_txt"
+                                    android:textSize="@dimen/txt_32sp" />
+
+                                <RadioButton
+                                    android:id="@+id/radioFalse"
+                                    android:layout_width="@dimen/dm_50dp"
+                                    android:layout_height="@dimen/dm_50dp"
+                                    android:layout_marginLeft="60dp"
+                                    android:background="@drawable/check_box"
+                                    android:button="@android:color/transparent"
+                                    android:checked="false"
+                                    android:text="" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="@dimen/dm_10dp"
+                                    android:layout_marginLeft="@dimen/dm_10dp"
+                                    android:layout_marginTop="@dimen/dm_10dp"
+                                    android:text="Disable"
+                                    android:textColor="@color/gray_txt"
+                                    android:textSize="@dimen/txt_32sp" />
+                            </RadioGroup>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/dm_10dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Mode Kiosk"
+                                android:textColor="@color/gray_lable"
+                                android:textSize="@dimen/txt_32sp" />
+
+                            <RadioGroup
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="@dimen/dm_5dp"
+                                android:gravity="center_vertical"
+                                android:orientation="horizontal">
+
+                                <RadioButton
+                                    android:id="@+id/radioEnable"
+                                    android:layout_width="@dimen/dm_50dp"
+                                    android:layout_height="@dimen/dm_50dp"
+                                    android:background="@drawable/check_box"
+                                    android:button="@android:color/transparent"
+                                    android:checked="true"
+                                    android:text="" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="@dimen/dm_10dp"
+                                    android:layout_marginLeft="@dimen/dm_10dp"
+                                    android:layout_marginTop="@dimen/dm_10dp"
+                                    android:text="Enable"
+                                    android:textColor="@color/gray_txt"
+                                    android:textSize="@dimen/txt_32sp" />
+
+                                <RadioButton
+                                    android:id="@+id/radioDisable"
+                                    android:layout_width="@dimen/dm_50dp"
+                                    android:layout_height="@dimen/dm_50dp"
+                                    android:layout_marginLeft="60dp"
+                                    android:background="@drawable/check_box"
+                                    android:button="@android:color/transparent"
+                                    android:checked="false"
+                                    android:text="" />
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginBottom="@dimen/dm_10dp"
+                                    android:layout_marginLeft="@dimen/dm_10dp"
+                                    android:layout_marginTop="@dimen/dm_10dp"
+                                    android:text="Disable"
+                                    android:textColor="@color/gray_txt"
+                                    android:textSize="@dimen/txt_32sp" />
+                            </RadioGroup>
+                        </LinearLayout>
+
+                        <TextView
+                            android:id="@+id/txtCloseApp"
+                            style="@style/txt_btn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/dm_50dp"
+                            android:background="@drawable/btn_orange"
+                            android:text="Close App" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/txtHome"
+                    style="@style/txt_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="@dimen/dm_30dp"
+                    android:background="@drawable/btn_black_left"
+                    android:text="@string/exit" />
+
+                <TextView
+                    android:id="@+id/txtRegisterKiosk"
+                    style="@style/txt_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginBottom="@dimen/dm_30dp"
+                    android:background="@drawable/btn_orange_right"
+                    android:text="@string/register_kiosk" />
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

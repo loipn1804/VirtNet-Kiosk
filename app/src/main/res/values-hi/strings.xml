@@ -1,0 +1,191 @@
+<resources>
+    <string name="app_name">Kiosk</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="lang_english">English</string>
+    <string name="lang_chinese">中文</string>
+    <string name="lang_hindi">हिंदी</string>
+    <string name="lang_bahasa">Bahasa Melayu</string>
+    <string name="lang_thai">ภาษาไทย</string>
+
+    <string name="welcome">स्वागत</string>
+    <string name="below_welcome">शुरू करने के लिए तीर दबाएँ!</string>
+    <string name="below_welcome_highlight">Resident card</string>
+
+    <string name="general_wifi_code">वाईफ़ाई कोड जनरेट</string>
+    <string name="enter_the_code_from_the_card">कार्ड से कोड दर्ज</string>
+    <string name="enter_code_ex">12345-12345</string>
+    <string name="enter_code_generate_ex">AAAA-BBBB-CCCC-D</string>
+    <string name="get_wifi_access_code">वाईफ़ाई का उपयोग कोड प्राप्त करें</string>
+    <string name="show_wifi_access_code">दिखाएँ वाईफ़ाई एक्सेस कोड</string>
+    <string name="cancel">रद्द करना</string>
+    <string name="no">नहीं</string>
+    <string name="yes">हाँ</string>
+    <string name="confirm_goto_home">आप एसएमएस भेजने या कोड मुद्रण के बिना बाहर निकलने के लिए चाहते हैं?</string>
+
+    <string name="hello">नमस्ते</string>
+    <string name="checking_wifi_code">वाईफ़ाई कोड की जाँच</string>
+    <string name="report_issue">रिपोर्ट जारी</string>
+    <string name="sign_out">साइन आउट</string>
+
+    <string name="check_code">कोड की जाँच</string>
+    <string name="enter_the_code">कोड दर्ज करें</string>
+
+    <string name="generated_code">उत्पन्न कोड</string>
+    <string name="wifi_code">वाईफ़ाई संहिता</string>
+    <string name="show_wifi_code">दिखाएँ वाईफ़ाई संहिता</string>
+    <string name="sms">SMS</string>
+    <string name="print">छाप</string>
+
+    <string name="your_phone_number">आपका फोन नंबर</string>
+    <string name="enter_phone_ex">उदाहरण के लिए. 91234567</string>
+    <string name="done">कर दिया</string>
+    <string name="exit">बाहर जाएं</string>
+
+    <string name="success_print">सफलतापूर्वक मुद्रित!</string>
+    <string name="success_send_sms">सफलतापूर्वक एसएमएस भेजा!</string>
+    <string name="have_problem_print">प्रिंटर के साथ समस्या हो रही है?</string>
+    <string name="have_problem_send_sms">भेजा एसएमएस के साथ समस्या हो रही है?</string>
+
+    <string name="report_issue_via_form">रिपोर्ट मुद्दा\nके माध्यम से आवेदन पत्र</string>
+    <string name="report_issue_via_service">रिपोर्ट मुद्दा\nके माध्यम से सेवा अधिकारी</string>
+    <string name="report_issue_time">(17:00-21:00 दैनिक के बीच)</string>
+
+    <string name="report_issue_form">रिपोर्ट मुद्दा (आवेदन पत्र)</string>
+    <string name="type">टाइप</string>
+    <string name="phone_number">फ़ोन नंबर</string>
+    <string name="message">संदेश</string>
+    <string name="submit">प्रस्तुत करना</string>
+
+    <string name="thank_you">धन्यवाद!</string>
+    <string name="will_contacting">हम जल्द ही आप से संपर्क किया जाएगा</string>
+    <string name="home">होम पेज</string>
+
+    <string name="report_issue_service">रिपोर्ट मुद्दा (आवाज कॉल)</string>
+    <string name="end">समाप्त</string>
+
+    <string name="system">व्यवस्था</string>
+    <string name="maintenance">के अधीन है\nरखरखाव</string>
+    <string name="maintenance_hightlight">के अधीन है\nरखरखाव</string>
+    <string name="sorry">असुविधा के लिए खेद है!</string>
+
+    <string name="label_reg_1">कैमरे के लिए वर्क परमिट के रखा सामने का दृश्य</string>
+    <string name="label_reg_1_underline">वर्क परमिट के सामने का दृश्य</string>
+    <string name="label_reg_2">कैमरे के लिए वर्क परमिट के मद्देनजर वापस रखा</string>
+    <string name="label_reg_2_underline">वर्क परमिट के पीछे देखें</string>
+    <string name="label_reg_3">कैमरे की स्थिति के लिए अपने निवास दर्रा स्थिति</string>
+    <string name="label_barcode">सामने कैमरे के लिए अपने कार्यकर्ता परमिट के बारकोड रखा</string>
+    <string name="barcode">बारकोड</string>
+    <string name="cannot_scan">बारकोड को स्कैन करने में असमर्थ</string>
+    <string name="continue_str">जारी रखें</string>
+
+    <string name="label_reg_4">अपनी जानकारी दर्ज करें</string>
+    <string name="name">नाम</string>
+    <string name="dob">जन्मतिथि</string>
+    <string name="sex">लिंग</string>
+    <string name="male">नर</string>
+    <string name="female"> महिला </string>
+    <string name="nationality">राष्ट्रीयता</string>
+    <string name="room">कक्ष</string>
+    <string name="passport">पासपोर्ट संख्या</string>
+    <string name="doe">समाप्ति तिथि</string>
+    <string name="fin">FIN</string>
+    <string name="company">कंपनी</string>
+    <string name="finish">अंत</string>
+
+    <string name="private_setting">Private Setting</string>
+    <string name="register_kiosk">Register Kiosk</string>
+    <string name="lat">Latitude</string>
+    <string name="lng">Longitude</string>
+    <string name="device_id">Device Id</string>
+    <string name="dormitory">Dormitory</string>
+
+    <string name="blank_name">नाम दर्ज करें.</string>
+    <string name="blank_room">कमरे में प्रवेश करें.</string>
+    <string name="blank_passport">पासपोर्ट संख्या दर्ज करें.</string>
+    <string name="blank_fin">कृपया दर्ज करें FIN.</string>
+    <string name="blank_company">कंपनी का नाम दर्ज करें.</string>
+    <string name="blank_code">कोड दर्ज करें.</string>
+    <string name="blank_phone">फोन नंबर दर्ज करें.</string>
+    <string name="blank_message">कृपया अपना संदेश लिखें.</string>
+    <string name="blank_nation">अपनी राष्ट्रीयता का चयन करें.</string>
+    <string name="blank_dormitory">अपने छात्रावास का चयन करें.</string>
+    <string name="blank_dob">अपने जन्मदिन का चयन करें.</string>
+    <string name="blank_doe">तिथि समाप्त हो अपने चयन करें.</string>
+
+    <string name="you_have_plan">अब आप एक सक्रिय योजना है</string>
+    <string name="your_code">अपका कोड</string>
+    <string name="activate_at">सक्रिय दिनांक / समय</string>
+    <string name="expired_at">समाप्ति की तिथि / समय</string>
+    <string name="wifi_package">वाईफ़ाई योजना</string>
+
+    <string name="validate_msg">आप भी कई गलत कोड दर्ज किया है । अपने खाते के लिए बंद कर दिया जाएगा</string>
+    <string name="validate_min">मिनटों.</string>
+
+    <string name="key_done">कर दिया</string>
+    <string name="try_again">कृपया पुन: प्रयास करें!</string>
+    <string name="invalid_code">अवैध कोड!</string>
+
+    <string name="search">खोज</string>
+
+    <string name="btn_discovery">Discovery</string>
+    <string name="title_target">Target</string>
+    <string name="title_printerseries">Printer Series</string>
+    <string name="title_lang">Lang</string>
+    <string name="btn_samplereceipt">Sample Receipt</string>
+    <string name="btn_samplecoupon">Sample Coupon</string>
+    <string name="btn_restart">Restart</string>
+    <string name="title_activity_discovery">DiscoveryActivity</string>
+    <string name="title_printerlist">Printer List</string>
+    <string name="default_target">TCP:192.168.192.168</string>
+    <string name="title_warnings">Printer Warnings</string>
+    <string name="print_job_id">ABC123</string>
+    <string name="title_err_code">Error Code</string>
+    <string name="title_err_method">Method</string>
+    <string name="title_msg_result">Result</string>
+    <string name="title_msg_description">Description</string>
+    <string name="printerseries_m10">TM-m10 Series</string>
+    <string name="printerseries_m30">TM-m30 Series</string>
+    <string name="printerseries_p20">TM-P20 Series</string>
+    <string name="printerseries_p60">TM-P60 Series</string>
+    <string name="printerseries_p60ii">TM-P60II Series</string>
+    <string name="printerseries_p80">TM-P80 Series</string>
+    <string name="printerseries_t20">TM-T20 Series</string>
+    <string name="printerseries_t70">TM-T70 Series</string>
+    <string name="printerseries_t81">TM-T81 Series</string>
+    <string name="printerseries_t82">TM-T82 Series</string>
+    <string name="printerseries_t83">TM-T83 Series</string>
+    <string name="printerseries_t88">TM-T88 Series</string>
+    <string name="printerseries_t90">TM-T90 Series</string>
+    <string name="printerseries_t90kp">TM-T90KP Series</string>
+    <string name="printerseries_u220">TM-U220 Series</string>
+    <string name="printerseries_u330">TM-U330 Series</string>
+    <string name="printerseries_l90">TM-L90 Series</string>
+    <string name="printerseries_h6000">TM-H6000 Series</string>
+    <string name="lang_ank">ANK</string>
+    <string name="lang_japanese">JAPANESE</string>
+    <string name="lang_chinese1">CHINESE</string>
+    <string name="lang_taiwan">TAIWAN</string>
+    <string name="lang_korean">KOREAN</string>
+    <string name="lang_thai1">THAI</string>
+    <string name="lang_southasia">SOUTH ASIA</string>
+    <string name="action_settings1">Settings</string>
+    <string name="handlingmsg_warn_receipt_near_end">Roll paper is nearly end.\n</string>
+    <string name="handlingmsg_warn_battery_near_end">Battery level of printer is low.\n</string>
+    <string name="handlingmsg_err_no_response">Please check the connection of the printer and the mobile terminal.\nConnection get lost.\n</string>
+    <string name="handlingmsg_err_cover_open">Please close roll paper cover.\n</string>
+    <string name="handlingmsg_err_receipt_end">Please check roll paper.\n</string>
+    <string name="handlingmsg_err_paper_feed">Please release a paper feed switch.\n</string>
+    <string name="handlingmsg_err_autocutter">Please remove jammed paper and close roll paper cover.\nRemove any jammed paper or foreign substances in the printer, and then turn the printer off and turn the printer on again.\n</string>
+    <string name="handlingmsg_err_need_recover">Then, If the printer doesn\'t recover from error, please cycle the power switch.\n</string>
+    <string name="handlingmsg_err_unrecover">Please cycle the power switch of the printer.\nIf same errors occurred even power cycled, the printer may out of order.</string>
+    <string name="handlingmsg_err_overheat">Please wait until error LED of the printer turns off. \n</string>
+    <string name="handlingmsg_err_head">Print head of printer is hot.\n</string>
+    <string name="handlingmsg_err_motor">Motor Driver IC of printer is hot.\n</string>
+    <string name="handlingmsg_err_battery">Battery of printer is hot.\n</string>
+    <string name="handlingmsg_err_wrong_paper">Please set correct roll paper.\n</string>
+    <string name="handlingmsg_err_battery_real_end">Please connect AC adapter or change the battery.\nBattery of printer is almost empty.\n</string>
+    <string name="handlingmsg_err_offline">Printer is offline.\n</string>
+</resources>
